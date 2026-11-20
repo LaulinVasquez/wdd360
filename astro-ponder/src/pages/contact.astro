@@ -1,0 +1,13 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Details  from "../components/Details.astro";
+
+const title = "Contact us";
+---
+
+<BaseLayout {title}>
+    <p>hola</p>
+    <Details summary="Contact" class:list="example_class" arial-label="Component example">
+        <p>Contact information</p>
+    </Details>
+</BaseLayout>
